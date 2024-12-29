@@ -58,7 +58,7 @@ const Form = ({data, setData, addData, setAddData, editData, setEditData}) => {
             name='title'
             value={addData.title}
             onChange={handleChange}
-            className="py-3 px-5 flex-1 border-gray-300 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500"
+            className="py-3 px-5 flex-1 border-gray-300 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:placeholder-neutral-500"
             placeholder="Title Text..."
           />
           <input
@@ -66,7 +66,7 @@ const Form = ({data, setData, addData, setAddData, editData, setEditData}) => {
             name='body'
             value={addData.body}
             onChange={handleChange}
-            className="py-3 px-5 sm:mt-0 media320:mt-2 media375:mt-2 media424px:mt-2 flex-1 border-gray-300 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500"
+            className="py-3 px-5 sm:mt-0 media320:mt-2 media375:mt-2 media424px:mt-2 flex-1 border-gray-300 rounded-full text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:placeholder-neutral-500"
             placeholder="Body Text.."
           />
           {/* Add button */}
